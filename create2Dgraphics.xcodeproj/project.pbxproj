@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0217AB1EBCBE8DF115BA38D8 /* Pods_create2Dgraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC60EEC2C6273436FB4F64C /* Pods_create2Dgraphics.framework */; };
 		0E507362208B861800ACD00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E507361208B861800ACD00B /* AppDelegate.swift */; };
 		0E507364208B861800ACD00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E507363208B861800ACD00B /* ViewController.swift */; };
 		0E507366208B861900ACD00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E507365208B861900ACD00B /* Assets.xcassets */; };
 		0E507369208B861900ACD00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E507367208B861900ACD00B /* Main.storyboard */; };
 		0E507375208B861A00ACD00B /* create2DgraphicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E507374208B861A00ACD00B /* create2DgraphicsTests.swift */; };
 		0E507380208B861A00ACD00B /* create2DgraphicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50737F208B861A00ACD00B /* create2DgraphicsUITests.swift */; };
+		6DD2178DD58E2FEBCA3D1E2A /* Pods_create2DgraphicsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCDB2EAE5DF849A051023FE /* Pods_create2DgraphicsUITests.framework */; };
+		B07DDFB540592DF3659DD700 /* Pods_create2DgraphicsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6459B71CD55368FBED2204D4 /* Pods_create2DgraphicsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0579B2B86B33237C0989FD5E /* Pods-create2DgraphicsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-create2DgraphicsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-create2DgraphicsTests/Pods-create2DgraphicsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E50735E208B861800ACD00B /* create2Dgraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = create2Dgraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E507361208B861800ACD00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E507363208B861800ACD00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +50,14 @@
 		0E50737B208B861A00ACD00B /* create2DgraphicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = create2DgraphicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E50737F208B861A00ACD00B /* create2DgraphicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create2DgraphicsUITests.swift; sourceTree = "<group>"; };
 		0E507381208B861A00ACD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6026215BF7F9BABF98200C3C /* Pods-create2DgraphicsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-create2DgraphicsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-create2DgraphicsTests/Pods-create2DgraphicsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6459B71CD55368FBED2204D4 /* Pods_create2DgraphicsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_create2DgraphicsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78069318279091D0805EA14A /* Pods-create2Dgraphics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-create2Dgraphics.release.xcconfig"; path = "Pods/Target Support Files/Pods-create2Dgraphics/Pods-create2Dgraphics.release.xcconfig"; sourceTree = "<group>"; };
+		A1187C94A85D26BA93BCA360 /* Pods-create2Dgraphics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-create2Dgraphics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-create2Dgraphics/Pods-create2Dgraphics.debug.xcconfig"; sourceTree = "<group>"; };
+		AFCDB2EAE5DF849A051023FE /* Pods_create2DgraphicsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_create2DgraphicsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26A9AC6DF87893385339042 /* Pods-create2DgraphicsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-create2DgraphicsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-create2DgraphicsUITests/Pods-create2DgraphicsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAC60EEC2C6273436FB4F64C /* Pods_create2Dgraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_create2Dgraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E80084D6AF46933113D643 /* Pods-create2DgraphicsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-create2DgraphicsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-create2DgraphicsUITests/Pods-create2DgraphicsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0217AB1EBCBE8DF115BA38D8 /* Pods_create2Dgraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07DDFB540592DF3659DD700 /* Pods_create2DgraphicsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD2178DD58E2FEBCA3D1E2A /* Pods_create2DgraphicsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +95,8 @@
 				0E507373208B861A00ACD00B /* create2DgraphicsTests */,
 				0E50737E208B861A00ACD00B /* create2DgraphicsUITests */,
 				0E50735F208B861800ACD00B /* Products */,
+				CEEBDC5D32C1E935907A2AD3 /* Pods */,
+				A394C4135DA0A25419F6BFA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +141,29 @@
 			path = create2DgraphicsUITests;
 			sourceTree = "<group>";
 		};
+		A394C4135DA0A25419F6BFA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC60EEC2C6273436FB4F64C /* Pods_create2Dgraphics.framework */,
+				6459B71CD55368FBED2204D4 /* Pods_create2DgraphicsTests.framework */,
+				AFCDB2EAE5DF849A051023FE /* Pods_create2DgraphicsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEEBDC5D32C1E935907A2AD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1187C94A85D26BA93BCA360 /* Pods-create2Dgraphics.debug.xcconfig */,
+				78069318279091D0805EA14A /* Pods-create2Dgraphics.release.xcconfig */,
+				0579B2B86B33237C0989FD5E /* Pods-create2DgraphicsTests.debug.xcconfig */,
+				6026215BF7F9BABF98200C3C /* Pods-create2DgraphicsTests.release.xcconfig */,
+				F7E80084D6AF46933113D643 /* Pods-create2DgraphicsUITests.debug.xcconfig */,
+				C26A9AC6DF87893385339042 /* Pods-create2DgraphicsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E507384208B861A00ACD00B /* Build configuration list for PBXNativeTarget "create2Dgraphics" */;
 			buildPhases = (
+				77C555D391F4695A616725CB /* [CP] Check Pods Manifest.lock */,
 				0E50735A208B861800ACD00B /* Sources */,
 				0E50735B208B861800ACD00B /* Frameworks */,
 				0E50735C208B861800ACD00B /* Resources */,
+				ADAC2776D323B0DEB2757AC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E507387208B861A00ACD00B /* Build configuration list for PBXNativeTarget "create2DgraphicsTests" */;
 			buildPhases = (
+				84A947D4DF8659E092CDB607 /* [CP] Check Pods Manifest.lock */,
 				0E50736C208B861A00ACD00B /* Sources */,
 				0E50736D208B861A00ACD00B /* Frameworks */,
 				0E50736E208B861A00ACD00B /* Resources */,
+				7E1ED48E9A3BAF922F3CE331 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E50738A208B861A00ACD00B /* Build configuration list for PBXNativeTarget "create2DgraphicsUITests" */;
 			buildPhases = (
+				7B00BB1B64E7473FDDB8B2D9 /* [CP] Check Pods Manifest.lock */,
 				0E507377208B861A00ACD00B /* Sources */,
 				0E507378208B861A00ACD00B /* Frameworks */,
 				0E507379208B861A00ACD00B /* Resources */,
+				AC6298153FAE3B1886B8990F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +294,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77C555D391F4695A616725CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-create2Dgraphics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B00BB1B64E7473FDDB8B2D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-create2DgraphicsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1ED48E9A3BAF922F3CE331 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-create2DgraphicsTests/Pods-create2DgraphicsTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework",
+				"${BUILT_PRODUCTS_DIR}/libffi/libffi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libextobjc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libffi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-create2DgraphicsTests/Pods-create2DgraphicsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84A947D4DF8659E092CDB607 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-create2DgraphicsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6298153FAE3B1886B8990F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-create2DgraphicsUITests/Pods-create2DgraphicsUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework",
+				"${BUILT_PRODUCTS_DIR}/libffi/libffi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libextobjc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libffi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-create2DgraphicsUITests/Pods-create2DgraphicsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAC2776D323B0DEB2757AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-create2Dgraphics/Pods-create2Dgraphics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework",
+				"${BUILT_PRODUCTS_DIR}/libffi/libffi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libextobjc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libffi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-create2Dgraphics/Pods-create2Dgraphics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E50735A208B861800ACD00B /* Sources */ = {
@@ -417,6 +586,7 @@
 		};
 		0E507385208B861A00ACD00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1187C94A85D26BA93BCA360 /* Pods-create2Dgraphics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = create2Dgraphics/create2Dgraphics.entitlements;
@@ -435,6 +605,7 @@
 		};
 		0E507386208B861A00ACD00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78069318279091D0805EA14A /* Pods-create2Dgraphics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = create2Dgraphics/create2Dgraphics.entitlements;
@@ -453,6 +624,7 @@
 		};
 		0E507388208B861A00ACD00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0579B2B86B33237C0989FD5E /* Pods-create2DgraphicsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +645,7 @@
 		};
 		0E507389208B861A00ACD00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6026215BF7F9BABF98200C3C /* Pods-create2DgraphicsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +666,7 @@
 		};
 		0E50738B208B861A00ACD00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E80084D6AF46933113D643 /* Pods-create2DgraphicsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -512,6 +686,7 @@
 		};
 		0E50738C208B861A00ACD00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26A9AC6DF87893385339042 /* Pods-create2DgraphicsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
